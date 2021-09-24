@@ -118,8 +118,8 @@ public class LoginButton extends FacebookButtonBase {
   private static final String TAG = LoginButton.class.getName();
   private boolean confirmLogout;
   private String loginText;
-  private String hztest;
   private String logoutText;
+
   private LoginButtonProperties properties = new LoginButtonProperties();
   private String loginLogoutEventName = AnalyticsEvents.EVENT_LOGIN_VIEW_USAGE;
   private boolean toolTipChecked;
